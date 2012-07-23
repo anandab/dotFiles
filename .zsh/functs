@@ -28,18 +28,18 @@ t () {
       echo "Pomodoro Task: $text"
       echo "  Work time - $workTime minutes"
       _timer $workTime
-      beep -l100 -r3
+      say "done done done"
 
       # Break time
       echo "  Break time - $breakTime minutes"
       _timer $breakTime
-      beep -l100 -r3
+      say "done done done"
       ;;
     # Normal task
     *)
       echo "Task: $text - $1 minutes"
       _timer $1
-      beep -l100 -r3
+      say "done done done"
       ;;
   esac
 }
