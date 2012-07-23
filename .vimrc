@@ -133,7 +133,9 @@ set autoindent
 set smartindent
 " keep your code clean and easy to read
 set linebreak
-set textwidth=120
+set textwidth=80
+set colorcolumn=+1
+hi ColorColumn ctermbg=white guibg=gray100
 " Turn backup off, since most stuff is in SVN, git anyway...
 set nobackup
 set nowb
@@ -145,16 +147,9 @@ set switchbuf=usetab
 set stal=2
 " Undo
 set undofile
-if os=="win"
-  set undodir=C:\Windows\Temp
-  map <leader>rc :e! D:\Dropbox\apps\gVimPortable\Data\settings\_vimrc<CR>
-  au! bufwritepost _vimrc source D:\Dropbox\apps\gVimPortable\Data\settings\_vimrc
-  set shell=powershell.exe
-else
-  set undodir=~/.vim/undodir
-  map <leader>rc :e! ~/.vimrc<CR>
-  au! bufwritepost .vimrc source ~/.vimrc
-endif
+set undodir=~/.vim/undodir
+map <leader>rc :e! ~/.vimrc<CR>
+au! bufwritepost .vimrc source ~/.vimrc
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => UI
@@ -266,9 +261,6 @@ let g:NERDTreeDirArrows=0
 map <leader>y :YRShow<CR>=
 
 " cTags plugins
-if os=="win"
-  let Tlist_Ctags_Cmd='d:\Dropbox\apps\gVimPortable\ctags\ctags.exe'
-endif
 map <leader>t :TlistToggle<cr>
 
 " ctrlP
