@@ -1,5 +1,6 @@
 ##### connection settings #####
 ## set it in order to make tag editor and renaming files work properly
+mpd_music_dir = "Dropbox/audio"
 mpd_host = "localhost"
 mpd_port = "6600"
 mpd_connection_timeout = "5"
@@ -286,7 +287,7 @@ enable_window_title = "yes"
 ## remove files and directories from your hdd using
 ## ncmpcpp's browser screen.
 ##
-allow_physical_files_deletion = "no"
+allow_physical_files_deletion = "yes"
 allow_physical_directories_deletion = "no"
 ##### lyrics support #####
 ##

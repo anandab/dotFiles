@@ -32,7 +32,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 # PATHS
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/usr/share/pear
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+PATH="$(brew --prefix php54)/bin:$PATH" # Add RVM to PATH for scripting
+PATH="$(brew --prefix mysql)/bin:$PATH" # Add RVM to PATH for scripting
 # LOCALE
 export LC_CTYPE=en_US.UTF-8
 # Editor

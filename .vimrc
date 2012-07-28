@@ -77,7 +77,7 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let os=GetRunningOS()
 " Remap leader
-let g:mapleader = ","
+let g:mapleader = " "
 " work with unicode by default
 set encoding=utf-8
 setglobal fileencoding=utf-8
@@ -192,7 +192,6 @@ map <leader>a :Ack<space>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <space> /
 map <silent><leader><cr> :noh<cr>
 " When pressing <leader>cd switch to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>
@@ -212,22 +211,20 @@ vmap <C-y> "+y
 map <C-p> "+p
 vmap <C-p> "+p
 " Brackets expanding
-let bracketPrefix="`"
-exe 'vnoremap' . bracketPrefix . '1 <esc>`>a)<esc>`<i(<esc>'
-exe 'vnoremap' . bracketPrefix . '2 <esc>`>a]<esc>`<i[<esc>'
-exe 'vnoremap' . bracketPrefix . '3 <esc>`>a}<esc>`<i{<esc>'
-exe 'vnoremap' . bracketPrefix . '$ <esc>`>a"<esc>`<i"<esc>'
-exe 'vnoremap' . bracketPrefix . 'q <esc>`>a"<esc>`<i"<esc>'
-exe 'vnoremap' . bracketPrefix . 'e <esc>`>a''<esc>`<i''<esc>'
-exe 'inoremap' . bracketPrefix . '1 ()<esc>i'
-exe 'inoremap' . bracketPrefix . '2 []<esc>i'
-exe 'inoremap' . bracketPrefix . '3 {}<esc>i'
-exe 'inoremap' . bracketPrefix . '4 {<esc>o}<esc>O'
-exe 'inoremap' . bracketPrefix . 'q ""<esc>i'
-exe 'inoremap' . bracketPrefix . 'e ''''<esc>i'
+inoremap <leader>( ()<left>
+inoremap <leader>[ []<left>
+inoremap <leader>{ {}<left>
+inoremap <leader>' ''<left>
+inoremap <leader>" ""<left>
+vnoremap <leader>( <esc>`>a)<esc>`<i(<esc>
+vnoremap <leader>[ <esc>`>a]<esc>`<i[<esc>
+vnoremap <leader>{ <esc>`>a}<esc>`<i{<esc>
+vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>
+vnoremap <leader>' <esc>`>a'<esc>`<i'<esc>
+
 " Map to enter ; end of line
-inoremap <leader>; <esc>A;
-nnoremap <leader>; A;<esc>
+inoremap ; <esc>A;
+nnoremap ; A;<esc>
 " open file in same directory
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
