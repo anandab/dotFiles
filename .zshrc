@@ -38,8 +38,11 @@ PATH="$(brew --prefix mysql)/bin:$PATH" # Add RVM to PATH for scripting
 # LOCALE
 export LC_CTYPE=en_US.UTF-8
 # Editor
-export EDITOR="mvim -v"
+export EDITOR="vim"
 # Customized stuffs
 . ~/.zsh/aliases
 . ~/.zsh/functs
 . ~/.zsh/configs
+
+# RVM
+[[ -s '/Users/nXqd/.rvm/scripts/rvm' ]] && source '/Users/nXqd/.rvm/scripts/rvm'

@@ -7,7 +7,6 @@ alias -s {jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}='open'
 alias -s {mpg,mpeg,avi,ogm,ogv,wmv,m4v,mp4,mov,f4v,mkv}='mplayer'
 alias -s {mp3,ogg,wav,flac}='ncmpcpp'
 alias -s {html,com,net,org,gov}='google-chrome'
-alias -s pdf='mupdf'
 alias -s chm='xchm'
 alias -s {rar,zip,7z,tar}='x' #function in .zsh/functs
 alias -s {txt,lua,php,js,css,cal}='vim'

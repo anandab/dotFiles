@@ -204,29 +204,34 @@ set laststatus=2
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " W to save as root
 nmap <leader>w :w!<cr>
-cnoremap W w !sudo tee % > /dev/null
+nmap <leader>e :e<space>
+nmap <leader>W :w !sudo tee % > /dev/null<cr>
 " Map copy and paste with system clipboard register
 map <C-y> "+y
 vmap <C-y> "+y
 map <C-p> "+p
 vmap <C-p> "+p
-" Brackets expanding
-inoremap <leader>( ()<left>
-inoremap <leader>[ []<left>
-inoremap <leader>{ {}<left>
-inoremap <leader>' ''<left>
-inoremap <leader>" ""<left>
-vnoremap <leader>( <esc>`>a)<esc>`<i(<esc>
-vnoremap <leader>[ <esc>`>a]<esc>`<i[<esc>
-vnoremap <leader>{ <esc>`>a}<esc>`<i{<esc>
-vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>
-vnoremap <leader>' <esc>`>a'<esc>`<i'<esc>
 
 " Map to enter ; end of line
-inoremap ; <esc>A;
-nnoremap ; A;<esc>
+inoremap <space>; <esc>A;
+nnoremap <space>; A;<esc>
 " open file in same directory
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+" Brackets
+let bracketPrefix="`"
+exe 'vnoremap' . bracketPrefix . '1 <esc>`>a)<esc>`<i(<esc>'
+exe 'vnoremap' . bracketPrefix . '2 <esc>`>a]<esc>`<i[<esc>'
+exe 'vnoremap' . bracketPrefix . '3 <esc>`>a}<esc>`<i{<esc>'
+exe 'vnoremap' . bracketPrefix . '$ <esc>`>a"<esc>`<i"<esc>'
+exe 'vnoremap' . bracketPrefix . 'q <esc>`>a"<esc>`<i"<esc>'
+exe 'vnoremap' . bracketPrefix . 'e <esc>`>a''<esc>`<i''<esc>'
+exe 'inoremap' . bracketPrefix . '1 ()<esc>i'
+exe 'inoremap' . bracketPrefix . '2 []<esc>i'
+exe 'inoremap' . bracketPrefix . '3 {}<esc>i'
+exe 'inoremap' . bracketPrefix . '4 {<esc>o}<esc>O'
+exe 'inoremap' . bracketPrefix . 'q ""<esc>i'
+exe 'inoremap' . bracketPrefix . 'e ''''<esc>i'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Cope
