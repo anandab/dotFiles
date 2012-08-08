@@ -215,7 +215,7 @@ settings = {
     bell_beeps = "yes";
   };
 };
-"fe-common/core" = { emphasis = "OFF"; theme = "miromiro"; };
+"fe-common/core" = { emphasis = "OFF"; theme = "solarized"; };
 hilights = ( { text = "nXqd"; nick = "yes"; word = "yes"; } );
 keyboard = (
   { key = "WI"; id = "command"; data = "whois "; },
@@ -233,7 +233,9 @@ ignores = (
       "#vim",
       "#powershell",
       "##English",
-      "#documentcloud"
+      "#documentcloud",
+      "#rubyonrails",
+      "#ruby"
     );
     network = "FreeNode";
   },

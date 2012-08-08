@@ -267,6 +267,7 @@ map <leader>t :TlistToggle<cr>
 
 " ctrlP
 let g:ctrlp_map = '<leader>f'
+let g:ctrlp_working_path_mode = 'rc'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Languages
