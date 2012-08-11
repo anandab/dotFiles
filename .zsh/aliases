@@ -12,6 +12,7 @@ alias -s {rar,zip,7z,tar}='x' #function in .zsh/functs
 alias -s {txt,lua,php,js,css,cal}='vim'
 #app
 alias m=tmuxinator
+alias j=autojump
 #Editor
 alias e=$EDITOR
 # vim: set ts=2:sw=2:tw=120:

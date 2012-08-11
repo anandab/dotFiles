@@ -15,6 +15,7 @@
 "    -> Plugins
 "    -> Languages
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set fillchars+=stl:\ ,stlnc:\
 
 " Run pathogen before hand
 call pathogen#infect()
