@@ -1,10 +1,3 @@
-#!/bin/zsh
-
-# Make dir and move into it
-mkcd () {
-   mkdir -p "$@" && cd "$_";
-}
-
 # Task timer
 t () {
   text=$1

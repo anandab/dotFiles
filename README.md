@@ -2,7 +2,7 @@ General
 -------------
 What is [dotFile](http://linux.about.com/cs/linux101/g/dot_file.htm "dotFile")
 
-Once it is your knife, 
+Once it is your knife,
 
 This repo focus mostly on Archlinux and OSX. The other distros may need some tweaks to make it work since they are unix.
 
