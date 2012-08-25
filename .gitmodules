@@ -1,3 +1,24 @@
 [submodule "zsh/oh-my-zsh.symlink"]
 	path = zsh/oh-my-zsh.symlink
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/vim.symlink/bundle/nerdcommenter"]
+	path = vim/vim.symlink/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/vim.symlink/bundle/tabular"]
+	path = vim/vim.symlink/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "vim/vim.symlink/bundle/fugitive"]
+	path = vim/vim.symlink/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/vim.symlink/bundle/syntastic"]
+	path = vim/vim.symlink/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim/vim.symlink/bundle/powerline"]
+	path = vim/vim.symlink/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/vim.symlink/bundle/snippets"]
+	path = vim/vim.symlink/bundle/snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "vim/vim.symlink/bundle/tagbar"]
+	path = vim/vim.symlink/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
