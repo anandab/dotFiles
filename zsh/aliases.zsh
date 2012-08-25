@@ -4,7 +4,7 @@ alias -s {html,com,net,org,gov}='open'
 alias -s chm='open'
 alias -s {rar,zip,7z,tar}='x' #function in .zsh/functs
 alias -s {txt,lua,php,js,css,cal}='vim'
-#app
+
 alias m=tmuxinator
-#Editor
+alias t=task
 alias e=$EDITOR

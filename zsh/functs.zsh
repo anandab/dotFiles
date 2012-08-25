@@ -1,5 +1,5 @@
 # Task timer
-t () {
+tp () {
   text=$1
 
   _timer() {
