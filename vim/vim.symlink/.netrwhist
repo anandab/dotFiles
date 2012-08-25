@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/nXqd/Dropbox/note'
 let g:netrw_dirhist_2='/Users/nXqd/dev/boxes/chef/cookbooks'
 let g:netrw_dirhist_3='/Users/nXqd/dev/ruby/sso/sso-provider'
 let g:netrw_dirhist_4='/Users/nXqd/Dropbox/note'
 let g:netrw_dirhist_5='/Users/nXqd/dev/ruby/sso/sso-provider'
+let g:netrw_dirhist_6='/Users/nXqd/.dotFiles/.git'
