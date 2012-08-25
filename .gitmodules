@@ -1,99 +1,24 @@
-[submodule "vim/vim.symlink/snipmate"]
-	path = vim/vim.symlink/snipmate
-	url = https://github.com/garbas/vim-snipmate.git
-[submodule "vim/vim.symlink/colors-solarized"]
-	path = vim/vim.symlink/colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/vim.symlink/coffee-script"]
-	path = vim/vim.symlink/coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "vim/vim.symlink/jade"]
-	path = vim/vim.symlink/jade
-	url = https://github.com/digitaltoad/vim-jade.git
-[submodule "vim/vim.symlink/markdown"]
-	path = vim/vim.symlink/markdown
-	url = https://github.com/tpope/vim-markdown.git
-[submodule "vim/vim.symlink/zencoding"]
-	path = vim/vim.symlink/zencoding
-	url = https://github.com/mattn/zencoding-vim.git
-[submodule "vim/vim.symlink/tlib"]
-	path = vim/vim.symlink/tlib
-	url = https://github.com/tomtom/tlib_vim.git
-[submodule "vim/vim.symlink/addon-mw-utils"]
-	path = vim/vim.symlink/addon-mw-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "vim/vim.symlink/nerdtree"]
-	path = vim/vim.symlink/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/vim.symlink/nerdcommenter"]
-	path = vim/vim.symlink/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "vim/vim.symlink/ctrlp"]
-	path = vim/vim.symlink/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim/vim.symlink/align"]
-	path = vim/vim.symlink/align
-	url = https://github.com/vim-scripts/Align.git
-[submodule "vim/vim.symlink/pathogen"]
-	path = vim/vim.symlink/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule ".oh-my-zsh"]
-	path = .oh-my-zsh
+[submodule "oh-my-zsh.symlink"]
+	path = zsh/oh-my-zsh.symlink
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "vim/vim.symlink/syntastic"]
-	path = vim/vim.symlink/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule "vim/vim.symlink/easymotion"]
-	path = vim/vim.symlink/easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
-[submodule "vim/vim.symlink/fugitive"]
-	path = vim/vim.symlink/fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim/vim.symlink/yankring"]
-	path = vim/vim.symlink/yankring
-	url = https://github.com/vim-scripts/YankRing.vim.git
-[submodule "vim/vim.symlink/vip"]
-	path = vim/vim.symlink/vip
-	url = https://github.com/tobyS/vip.git
-[submodule "vim/vim.symlink/matchit"]
-	path = vim/vim.symlink/matchit
-	url = https://github.com/edsono/vim-matchit.git
-[submodule "vim/vim.symlink/less"]
-	path = vim/vim.symlink/less
-	url = https://github.com/groenewege/vim-less.git
-[submodule "vim/vim.symlink/tagbar"]
-	path = vim/vim.symlink/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-[submodule "vim/vim.symlink/powerline"]
-	path = vim/vim.symlink/powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
-[submodule "vim/vim.symlink/rails"]
-	path = vim/vim.symlink/rails
-	url = https://github.com/tpope/vim-rails.git
-[submodule "vim/vim.symlink/ack"]
-	path = vim/vim.symlink/ack
-	url = https://github.com/mileszs/ack.vim.git
-[submodule "vim/vim.symlink/autoclose"]
-	path = vim/vim.symlink/autoclose
-	url = https://github.com/Townk/vim-autoclose.git
-[submodule "vim/vim.symlink/surround"]
-	path = vim/vim.symlink/surround
-	url = https://github.com/tpope/vim-surround.git
-[submodule "vim/vim.symlink/handlebars"]
-	path = vim/vim.symlink/handlebars
-	url = https://github.com/nono/vim-handlebars.git
-[submodule "vim/vim.symlink/javascript"]
-	path = vim/vim.symlink/javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim/vim.symlink/snipmate-snippets"]
-	path = vim/vim.symlink/snipmate-snippets
-  url = https://github.com/honza/snipmate-snippets.git
-[submodule "vim/vim.symlink/snippets"]
-	path = vim/vim.symlink/snippets
-	url = https://github.com/scrooloose/snipmate-snippets.git
-[submodule "vim/vim.symlink/neocomplcache"]
-	path = vim/vim.symlink/neocomplcache
-	url = https://github.com/Shougo/neocomplcache.git
-[submodule "vim/vim.symlink/smartinput"]
-	path = vim/vim.symlink/smartinput
-	url = https://github.com/kana/vim-smartinput.git
+[submodule "vim/vim.symlink/bundle/nerdcommenter"]
+	path = vim/vim.symlink/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/vim.symlink/bundle/tabular"]
+	path = vim/vim.symlink/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "vim/vim.symlink/bundle/fugitive"]
+	path = vim/vim.symlink/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/vim.symlink/bundle/syntastic"]
+	path = vim/vim.symlink/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim/vim.symlink/bundle/powerline"]
+	path = vim/vim.symlink/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/vim.symlink/bundle/snippets"]
+	path = vim/vim.symlink/bundle/snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "vim/vim.symlink/bundle/tagbar"]
+	path = vim/vim.symlink/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git

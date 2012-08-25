@@ -1,0 +1,15 @@
+[hub]
+  protocol = https
+
+[user]
+  name = Quang Dung
+  email = nxqd.inbox@gmail.com
+
+[credential]
+  helper = osxkeychain
+
+[mergetool]
+  keepBackup = false
+
+[help]
+  autocorrect = 1
