@@ -19,7 +19,6 @@ source $ZSH/oh-my-zsh.sh
 export LC_CTYPE=en_US.UTF-8
 export EDITOR="vim"
 
-ZSH_CUST = $HOME/.dotfiles
-
+ZSH_CUST=$HOME/.dotfiles
 # source every config file in this rep
 for config_file ($ZSH_CUST/**/*.zsh) source $config_file
