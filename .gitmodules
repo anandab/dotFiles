@@ -28,3 +28,6 @@
 [submodule "vim/vim.symlink/bundle/AutoComplPop"]
 	path = vim/vim.symlink/bundle/AutoComplPop
 	url = git://github.com/vim-scripts/AutoComplPop.git
+[submodule "vim/vim.symlink/bundle/rails"]
+	path = vim/vim.symlink/bundle/rails
+	url = git://github.com/tpope/vim-rails.git
