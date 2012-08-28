@@ -32,8 +32,8 @@ chatnets = {
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "#enhack"; chatnet = "freeNode"; autojoin = "yes"; },
-  { name = "#archlinux"; chatnet = "freeNode"; autojoin = "yes"; }
+  { name = "#archlinux"; chatnet = "freeNode"; autojoin = "yes"; },
+  { name = "#rubyonrails"; chatnet = "freeNode"; autojoin = "yes"; }
 );
 
 aliases = {
@@ -228,15 +228,7 @@ keyboard = (
 ignores = (
   {
     level = "JOINS PARTS QUITS MODES";
-    channels = (
-      "#archlinux",
-      "#vim",
-      "#powershell",
-      "##English",
-      "#documentcloud",
-      "#rubyonrails",
-      "#ruby"
-    );
+    channels = ( );
     network = "FreeNode";
   },
   { 

@@ -60,23 +60,9 @@ function! VisualSearch(direction) range
   let @/ = l:pattern
   let @" = l:saved_reg
 endfunction
-" Get running OS
-function! GetRunningOS()
-  if has("win32")
-    return "win"
-  endif
-  if has("unix")
-    if system('uname')=~'Darwin'
-      return "mac"
-    else
-      return "unix"
-    endif
-  endif
-endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let os=GetRunningOS()
 " Remap leader
 let g:mapleader = " "
 " work with unicode by default
@@ -218,6 +204,8 @@ inoremap <space>; <esc>A;
 nnoremap <space>; A;<esc>
 " open file in same directory
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+" Toggle paste mode on and off
+map <leader>pp :setlocal paste!<cr>
 
 " Brackets
 let bracketPrefix="`"

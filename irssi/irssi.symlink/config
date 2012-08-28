@@ -34,6 +34,7 @@ channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
   { name = "#archlinux"; chatnet = "freeNode"; autojoin = "yes"; },
   { name = "#rubyonrails"; chatnet = "freeNode"; autojoin = "yes"; }
+  { name = "#ruby-lang"; chatnet = "freeNode"; autojoin = "yes"; }
 );
 
 aliases = {
@@ -228,18 +229,10 @@ keyboard = (
 ignores = (
   {
     level = "JOINS PARTS QUITS MODES";
-    channels = (
-      "#archlinux",
-      "#vim",
-      "#powershell",
-      "##English",
-      "#documentcloud",
-      "#rubyonrails",
-      "#ruby"
-    );
+    channels = (*);
     network = "FreeNode";
   },
-  { 
+  {
     level = "MODES";
     channels = ( "&amp;bitlbee" );
     network = "BitlBee";
