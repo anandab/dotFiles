@@ -33,7 +33,7 @@ chatnets = {
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
   { name = "#archlinux"; chatnet = "freeNode"; autojoin = "yes"; },
-  { name = "#rubyonrails"; chatnet = "freeNode"; autojoin = "yes"; }
+  { name = "#rubyonrails"; chatnet = "freeNode"; autojoin = "yes"; },
   { name = "#ruby-lang"; chatnet = "freeNode"; autojoin = "yes"; }
 );
 
@@ -229,10 +229,10 @@ keyboard = (
 ignores = (
   {
     level = "JOINS PARTS QUITS MODES";
-    channels = (*);
+    channels = ( );
     network = "FreeNode";
   },
-  {
+  { 
     level = "MODES";
     channels = ( "&amp;bitlbee" );
     network = "BitlBee";

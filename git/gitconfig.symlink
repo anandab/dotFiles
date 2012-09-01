@@ -18,6 +18,7 @@
   branch = auto
   diff = auto
   status = auto
+  ui = auto
 
 [color "branch"]
   current = yellow reverse
@@ -34,3 +35,6 @@
   added = yellow
   changed = green
   untracked = cyan
+
+[alias]
+    n = !"git ls-files | xargs notes | awk -F: '{ print $1,$2; print $3,$4; print $5}'"
