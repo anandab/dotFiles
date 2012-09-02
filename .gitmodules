@@ -34,3 +34,9 @@
 [submodule "vim/vim.symlink/bundle/coffee-script"]
 	path = vim/vim.symlink/bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/vim.symlink/bundle/delimitMate"]
+	path = vim/vim.symlink/bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "vim/vim.symlink/bundle/snipmate"]
+	path = vim/vim.symlink/bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim.git
