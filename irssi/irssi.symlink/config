@@ -232,7 +232,7 @@ ignores = (
     channels = ( );
     network = "FreeNode";
   },
-  {
+  { 
     level = "MODES";
     channels = ( "&amp;bitlbee" );
     network = "BitlBee";

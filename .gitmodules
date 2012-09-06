@@ -40,3 +40,6 @@
 [submodule "vim/vim.symlink/bundle/snipmate"]
 	path = vim/vim.symlink/bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
+[submodule "vim/vim.symlink/bundle/zencoding"]
+	path = vim/vim.symlink/bundle/zencoding
+	url = git://github.com/mattn/zencoding-vim.git
