@@ -222,6 +222,7 @@ exe 'inoremap' . bracketPrefix . '4 {<esc>o}<esc>O'
 exe 'inoremap' . bracketPrefix . 'q ""<esc>i'
 exe 'inoremap' . bracketPrefix . 'e ''''<esc>i'
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Cope
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
