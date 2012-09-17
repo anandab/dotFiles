@@ -1,9 +1,6 @@
 [submodule "zsh/oh-my-zsh.symlink"]
 	path = zsh/oh-my-zsh.symlink
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "vim/vim.symlink/bundle/nerdcommenter"]
-	path = vim/vim.symlink/bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "vim/vim.symlink/bundle/tabular"]
 	path = vim/vim.symlink/bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
@@ -40,3 +37,12 @@
 [submodule "vim/vim.symlink/bundle/zencoding"]
 	path = vim/vim.symlink/bundle/zencoding
 	url = git://github.com/mattn/zencoding-vim.git
+[submodule "vim/vim.symlink/bundle/snipmate"]
+	path = vim/vim.symlink/bundle/snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "vim/vim.symlink/bundle/matchit"]
+	path = vim/vim.symlink/bundle/matchit
+	url = git://github.com/vim-scripts/matchit.zip.git
+[submodule "vim/vim.symlink/bundle/commentary"]
+	path = vim/vim.symlink/bundle/commentary
+	url = git://github.com/tpope/vim-commentary.git
