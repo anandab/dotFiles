@@ -148,7 +148,7 @@ if has("gui_running")
   set guioptions-=r     "remove left scroll
   set guioptions-=l     "remove right scroll
   set guifont=Consolas:h11
-  colorscheme solarized
+  colorscheme Tomorrow-Night
   set background=dark
 endif
 
