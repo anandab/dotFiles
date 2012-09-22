@@ -1,6 +1,7 @@
 # General {{{
 # history limit
 # Clipboard helper
+set-option -g base-index 1
 set-option -g default-command "reattach-to-user-namespace -l zsh"
 # Clipboard history
 set-option -g history-limit 100

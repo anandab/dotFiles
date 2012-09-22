@@ -1,4 +1,4 @@
 boom/boom.symlink
-ssh/*.*
+ssh/*
 taskwarrior/*
 mutt/*

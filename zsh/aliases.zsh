@@ -5,6 +5,6 @@ alias -s chm='open'
 alias -s {rar,zip,7z,tar}='x' #function in .zsh/functs
 alias -s {txt,lua,php,js,css,cal}='vim'
 
-alias m=tmuxinator
+alias m=`which tmuxinator`
 alias t=task
 alias e=$EDITOR
