@@ -15,13 +15,13 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE="true"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(rvm cloudapp git vi-mode node git-flow extract rails3 brew battery autojump heroku)
+plugins=(rbenv cloudapp git vi-mode node git-flow extract rails3 brew battery autojump heroku)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export LC_CTYPE=en_US.UTF-8
 export EDITOR="vim"
 
-ZSH_CUST=$HOME/.dotfiles/zsh
 # source every config file in this rep
+ZSH_CUST=$HOME/.dotfiles/zsh
 for config_file ($ZSH_CUST/*.zsh) source $config_file

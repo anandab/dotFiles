@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/nXqd/dev/ruby/sphinx'
-let g:netrw_dirhist_2='/Users/nXqd/dev/ruby/activeadmin'
-let g:netrw_dirhist_3='/Users/nXqd/dev/js/todomvc/architecture-examples/emberjs/js/models'
-let g:netrw_dirhist_4='/Users/nXqd/dev/js/emberTwitter/js/views'
-let g:netrw_dirhist_5='/Users/nXqd/.rvm'
-let g:netrw_dirhist_6='/Users/nXqd/Documents/dev/ruby/blog'
-let g:netrw_dirhist_7='/Users/nXqd/.dotFiles/.git'
+let g:netrw_dirhist_cnt =0

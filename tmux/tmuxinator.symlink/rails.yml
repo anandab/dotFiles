@@ -1,19 +1,15 @@
 # ~/.tmuxinator/daily.yml
 # you can make as many tabs as you wish...
 
-project_name: Daily
-project_root: ~/
-pre: mpd& bitlbee&
+project_name: Tmuxinator
+project_root: ~/Documents/dev/rb
+#pre: mpd&
 tabs:
-  - note:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - vim
+  - cmd:
       layout: main-vertical
       panes:
-        - e ~/Dropbox/note/note.markdown
-  - music:
-      layout: main-vertical
-      panes:
-        - ncmpcpp
-  - chat:
-      layout: main-vertical
-      panes:
-        - irssi
+        - zsh

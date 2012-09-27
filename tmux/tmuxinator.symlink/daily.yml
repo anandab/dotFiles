@@ -3,16 +3,10 @@
 
 project_name: Tmuxinator
 project_root: ~/
-#pre: mpd&
 tabs:
-  - editor:
-      layout: main-vertical
-      panes:
-        - vim
   - music:
       layout: main-horizontal
       panes:
-        - ncmpcpp
         - zsh
   - note:
       layout: main-vertical
