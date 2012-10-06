@@ -55,3 +55,6 @@
 [submodule "vim/vim.symlink/bundle/tlib"]
 	path = vim/vim.symlink/bundle/tlib
 	url = git://github.com/tomtom/tlib_vim.git
+[submodule "vim/vim.symlink/bundle/neocomplcache"]
+	path = vim/vim.symlink/bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git

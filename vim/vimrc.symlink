@@ -249,11 +249,14 @@ map <leader>s? z=
 map <leader>o :NERDTreeToggle<cr>
 let g:NERDTreeDirArrows=0
 
+" Neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+
 " YankRing
 map <leader>y :YRShow<CR>=
 
 " cTags plugins
-map <leader>t :TlistToggle<cr>
+map <leader>t :TagbarToggle<cr>
 
 " ctrlP
 let g:ctrlp_map = '<leader>f'
