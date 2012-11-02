@@ -267,3 +267,7 @@ let g:ctrlp_working_path_mode = 'rc'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " C/AL
 au FileType cal set filetype=cal.vb
+
+set nocursorcolumn
+set nocursorline
+syntax sync minlines=256
