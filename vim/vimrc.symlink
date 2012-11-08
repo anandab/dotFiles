@@ -262,6 +262,9 @@ map <leader>t :TagbarToggle<cr>
 let g:ctrlp_map = '<leader>f'
 let g:ctrlp_working_path_mode = 'rc'
 
+" Gundo
+map <leader>g :GundoToggle<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Languages
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
