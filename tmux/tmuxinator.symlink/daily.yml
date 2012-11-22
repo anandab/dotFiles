@@ -7,7 +7,7 @@ tabs:
   - zsh:
       layout: main-vertical
       panes:
-        - vim ~/Dropbox/tmp.md
+        - zsh
   - chat:
       layout: main-horizontal
       panes:
@@ -15,4 +15,4 @@ tabs:
   - note:
       layout: main-vertical
       panes:
-        - vim ~/Dropbox/tmp.md
+        - vim ~/Dropbox/note/tmp.md
