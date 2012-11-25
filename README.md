@@ -12,12 +12,8 @@ Installation
 ```terminal
 git clone git@github.com:nXqd/dotFiles.git ~/.dotFiles
 cd ~/.dotfiles
-./bootstrap.sh
+rake
 ```
-
-ARCH LINUX
-----------
-1. `.build` folder contains my favourite apps which are needed to be compiled to change config settings.
 
 OSX
 ---
