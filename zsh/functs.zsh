@@ -46,3 +46,17 @@ dict(){
     curl "dict://dict.org/d:$1"
   fi
 }
+
+f(){
+  find . -name "$1"
+}
+
+server() {
+  php -S 127.0.0.1:$1
+}
+
+# cat with beautiful color
+# sudo easy_install Pygments
+c() {
+  pygmentize -O style=monokai -f console256 -g $1
+}
