@@ -46,3 +46,8 @@ dict(){
     curl "dict://dict.org/d:$1"
   fi
 }
+
+gexport(){
+  mkdir -p "$1"
+  git archive master | tar -x -C "$1"
+}
