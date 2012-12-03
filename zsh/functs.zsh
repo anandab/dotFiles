@@ -60,3 +60,8 @@ server() {
 c() {
   pygmentize -O style=monokai -f console256 -g $1
 }
+
+gexport(){
+  mkdir -p "$1"
+  git archive master | tar -x -C "$1"
+}
