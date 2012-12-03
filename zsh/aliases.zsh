@@ -8,3 +8,4 @@ alias -s {txt,lua,php,js,css,cal}='vim'
 alias m=`which tmuxinator`
 alias t=task
 alias e=$EDITOR
+alias v=vagrant
