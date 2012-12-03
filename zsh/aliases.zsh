@@ -9,3 +9,4 @@ alias m=`which tmuxinator`
 alias t=task
 alias e=$EDITOR
 alias v=vagrant
+alias rt=rtorrent
