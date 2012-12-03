@@ -65,3 +65,7 @@ gexport(){
   mkdir -p "$1"
   git archive master | tar -x -C "$1"
 }
+
+mp(){
+  open -a MplayerX $1
+}
