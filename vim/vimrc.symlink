@@ -189,8 +189,10 @@ set laststatus=2
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Shortcuts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap ; :
 " W to save as root
 nmap <leader>w :w!<cr>
+cmap w!! w !sudo tee % >/dev/null
 nmap <leader>e :e<space>
 nmap <leader>W :w !sudo tee % > /dev/null<cr>
 " Map copy and paste with system clipboard register
@@ -198,7 +200,8 @@ map <C-y> "+y
 vmap <C-y> "+y
 map <C-p> "+p
 vmap <C-p> "+p
-
+" map to create file under cursor
+map <leader>cf :e <cfile><CR>
 " Map to enter ; end of line
 inoremap <space>; <esc>A;
 nnoremap <space>; A;<esc>

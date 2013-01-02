@@ -69,3 +69,18 @@ gexport(){
 mp(){
   open -a MplayerX $1
 }
+
+# Mountain lion flush dnscache
+dnsf() {
+  sudo killall -HUP mDNSResponder
+}
+
+# soruce .zshrc
+s() {
+  source ~/.zshrc
+}
+
+# eject disk
+ej() {
+  diskutil umount
+}
