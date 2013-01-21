@@ -15,7 +15,7 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE="true"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(rbenv cloudapp git vi-mode node git-flow extract rails3 brew battery autojump heroku)
+plugins=(taskwarrior sublime rbenv cloudapp git vi-mode node git-flow extract rails3 brew battery heroku cp)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...

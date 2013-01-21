@@ -73,3 +73,9 @@
 [submodule "vim/vim.symlink/bundle/easymotion"]
 	path = vim/vim.symlink/bundle/easymotion
 	url = git://github.com/skwp/vim-easymotion.git
+[submodule "vim/vim.symlink/bundle/vimclojure"]
+	path = vim/vim.symlink/bundle/vimclojure
+	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "vim/vim.symlink/bundle/editorconfig"]
+	path = vim/vim.symlink/bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git

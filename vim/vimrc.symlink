@@ -124,7 +124,7 @@ set textwidth=80
 set colorcolumn=+1
 hi ColorColumn ctermbg=white guibg=gray100
 " Turn backup off, since most stuff is in SVN, git anyway...
-set nobackup
+set backupdir=~/.vim/backup
 set nowb
 set noswapfile
 " enable syntax highlighting
@@ -269,7 +269,7 @@ let g:ctrlp_working_path_mode = 'rc'
 map <leader>g :GundoToggle<CR>
 
 " Easymotion
-nnoremap f H:call EasyMotion#WB(0, 0)<CR>
+nnoremap <leader>v  H:call EasyMotion#WB(0, 0)<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Languages
