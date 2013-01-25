@@ -3,11 +3,16 @@
 
 project_name: Tmuxinator
 project_root: ~/
+pre: mpd&
 tabs:
   - zsh:
       layout: main-vertical
       panes:
         - zsh
+  - music:
+      layout: main-horizontal
+      panes:
+        - ncmpcpp
   - chat:
       layout: main-horizontal
       panes:
