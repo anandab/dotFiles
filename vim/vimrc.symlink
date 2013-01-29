@@ -23,6 +23,10 @@ call pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! <SID>TrimBlankLines()
+  :silent! %!cat -s
+endfunction
+
 " Remove empty line at the end of page
 function! <SID>TrimEndLines()
   let save_cursor = getpos(".")
@@ -158,6 +162,7 @@ endif
 " Auto remove when saving
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 autocmd BufWritePre * :call <SID>TrimEndLines()
+" autocmd BufWritePre * :call <SID>TrimBlankLines()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Visual mode related
@@ -224,7 +229,6 @@ exe 'inoremap' . bracketPrefix . '3 {}<esc>i'
 exe 'inoremap' . bracketPrefix . '4 {<esc>o}<esc>O'
 exe 'inoremap' . bracketPrefix . 'q ""<esc>i'
 exe 'inoremap' . bracketPrefix . 'e ''''<esc>i'
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Cope
