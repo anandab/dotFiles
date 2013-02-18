@@ -75,12 +75,15 @@ dnsf() {
   sudo killall -HUP mDNSResponder
 }
 
-# soruce .zshrc
-s() {
-  source ~/.zshrc
-}
-
 # eject disk
 ej() {
   diskutil umount
+}
+# change tab name
+function tabname {
+  printf "\e]1;$1\a"
+}
+# change win name
+function winname {
+  printf "\e]2;$1\a"
 }
