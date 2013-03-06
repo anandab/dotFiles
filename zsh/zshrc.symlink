@@ -15,7 +15,7 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE="true"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(taskwarrior sublime rbenv cloudapp git vi-mode node git-flow extract rails3 brew battery heroku cp)
+plugins=(fasd taskwarrior sublime cloudapp git vi-mode node git-flow extract rails3 brew battery heroku cp rbenv)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
@@ -25,3 +25,5 @@ export EDITOR="vim"
 # source every config file in this rep
 ZSH_CUST=$HOME/.dotfiles/zsh
 for config_file ($ZSH_CUST/*.zsh) source $config_file
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

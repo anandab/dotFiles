@@ -85,3 +85,9 @@
 [submodule "vim/vim.symlink/bundle/yankring"]
 	path = vim/vim.symlink/bundle/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "vim/vim.symlink/bundle/ultisnips"]
+	path = vim/vim.symlink/bundle/ultisnips
+	url = https://github.com/vim-scripts/UltiSnips.git
+[submodule "vim/vim.symlink/bundle/gitgutter"]
+	path = vim/vim.symlink/bundle/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
