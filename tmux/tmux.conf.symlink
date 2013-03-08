@@ -14,6 +14,8 @@ set -s escape-time 0
 # monitoring
 setw -g monitor-activity on
 set -g visual-activity on
+# highlight current active pane
+set-option -g pane-active-border-fg red
 # }}}
 
 # Window options {{{

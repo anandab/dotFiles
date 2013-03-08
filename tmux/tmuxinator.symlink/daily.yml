@@ -1,7 +1,7 @@
 # ~/.tmuxinator/daily.yml
 # you can make as many tabs as you wish...
 
-project_name: Tmuxinator
+project_name: Daily
 project_root: ~/
 pre: mpd&
 tabs:
@@ -21,3 +21,7 @@ tabs:
       layout: main-vertical
       panes:
         - vim ~/Dropbox/note/tmp.md
+  - rtorrent:
+      layout: main-horizontal
+      panes:
+        - rtorrent

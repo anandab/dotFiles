@@ -25,5 +25,3 @@ export EDITOR="vim"
 # source every config file in this rep
 ZSH_CUST=$HOME/.dotfiles/zsh
 for config_file ($ZSH_CUST/*.zsh) source $config_file
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

@@ -51,5 +51,9 @@ gem install bundler foreman pg rails thin --no-rdoc --no-ri
 # heroku
 brew install heroku-toolbelt
 
+# fun !!, no fun no work
+gem install cloudapp_api
+gem install gifme
+
 # Remove outdated versions from the cellar
 brew cleanup
