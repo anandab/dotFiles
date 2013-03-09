@@ -40,6 +40,9 @@ brew install task
 brew install ctags
 brew install imagemagick
 
+# system monitor
+brew install htop
+
 # Developments
 brew install postgres --no-python
 brew install rbenv

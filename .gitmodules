@@ -13,9 +13,6 @@
 [submodule "vim/vim.symlink/bundle/powerline"]
 	path = vim/vim.symlink/bundle/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
-[submodule "vim/vim.symlink/bundle/snippets"]
-	path = vim/vim.symlink/bundle/snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule "vim/vim.symlink/bundle/tagbar"]
 	path = vim/vim.symlink/bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
@@ -25,9 +22,6 @@
 [submodule "vim/vim.symlink/bundle/rails"]
 	path = vim/vim.symlink/bundle/rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "vim/vim.symlink/bundle/coffee-script"]
-	path = vim/vim.symlink/bundle/coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "vim/vim.symlink/bundle/delimitMate"]
 	path = vim/vim.symlink/bundle/delimitMate
 	url = git://github.com/Raimondi/delimitMate.git
@@ -46,9 +40,6 @@
 [submodule "vim/vim.symlink/bundle/surround"]
 	path = vim/vim.symlink/bundle/surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/vim.symlink/bundle/snipmate-snippets"]
-	path = vim/vim.symlink/bundle/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule "vim/vim.symlink/bundle/addon-mw-utils"]
 	path = vim/vim.symlink/bundle/addon-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
@@ -67,15 +58,9 @@
 [submodule "vim/vim.symlink/bundle/less"]
 	path = vim/vim.symlink/bundle/less
 	url = git://github.com/groenewege/vim-less.git
-[submodule "vim/vim.symlink/bundle/gundo"]
-	path = vim/vim.symlink/bundle/gundo
-	url = git://github.com/sjl/gundo.vim.git
 [submodule "vim/vim.symlink/bundle/easymotion"]
 	path = vim/vim.symlink/bundle/easymotion
 	url = git://github.com/skwp/vim-easymotion.git
-[submodule "vim/vim.symlink/bundle/vimclojure"]
-	path = vim/vim.symlink/bundle/vimclojure
-	url = https://github.com/vim-scripts/VimClojure.git
 [submodule "vim/vim.symlink/bundle/editorconfig"]
 	path = vim/vim.symlink/bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
