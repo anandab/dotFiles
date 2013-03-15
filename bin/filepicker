@@ -1,11 +1,16 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-begin
-    require 'json'
-rescue LoadError
-    puts "You need to install json: gem install json"
-      exit!(1)
+
+gems = ['json']
+
+gems.each do |gem|
+  begin
+    require gem
+  rescue LoadError
+    puts "You need to install #{gem}: gem install #{gem}"
+    exit!(1)
+  end
 end
 
 config_file = "#{ENV['HOME']}/.filepicker"
