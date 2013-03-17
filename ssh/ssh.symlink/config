@@ -6,3 +6,12 @@ Host github.com
   HostName github.com
   User nXqd
   IdentityFile /Users/nXqd/.ssh/id_rsa
+Host 116.251.211.127
+  HostName 116.251.211.127
+  User nXqd
+  IdentityFile /Users/nXqd/.ssh/id_rsa
+Host bitbucket.org
+  Hostname bitbucket.org
+  User nXqd
+  IdentityFile /Users/nXqd/.ssh/id_rsa
+  ForwardAgent yes
