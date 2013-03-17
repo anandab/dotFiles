@@ -33,6 +33,7 @@ function! <SID>TrimEndLines()
   :silent! %s#\($\n\s*\)\+\%$##
   call setpos('.', save_cursor)
 endfunction
+
 " Remove trailing spaces
 function! <SID>StripTrailingWhitespaces()
   " Preparation: save last search, and cursor position.
@@ -283,6 +284,14 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Languages
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Rails
+map <Leader>rt :!time bundle exec rspec % --format documentation<CR>
+map <Leader>rb :!bundle<CR>
+
+" Curl
+map <leader>crest :!curl -i -XGET -H 'Accept: application/json' http://0.0.0.0:3000/
+
 " C/AL
 au FileType cal set filetype=cal.vb
 

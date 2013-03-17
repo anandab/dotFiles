@@ -86,3 +86,8 @@ function tabname {
 function winname {
   printf "\e]2;$1\a"
 }
+
+# create password
+function spass {
+  openssl rand -base64 $1 | pbcopy
+}
