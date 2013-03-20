@@ -270,9 +270,6 @@ map <leader>t :TagbarToggle<cr>
 let g:ctrlp_map = '<leader>f'
 let g:ctrlp_working_path_mode = 'rc'
 
-" Gundo
-map <leader>g :GundoToggle<CR>
-
 " Easymotion
 nnoremap <leader>v  H:call EasyMotion#WB(0, 0)<CR>
 
@@ -280,17 +277,18 @@ nnoremap <leader>v  H:call EasyMotion#WB(0, 0)<CR>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "my_snippets"]
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Languages
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Rails
-map <Leader>rt :!time bundle exec rspec % --format documentation<CR>
+map <Leader>ztr :!zeus test rspec %:p<CR>
 map <Leader>rb :!bundle<CR>
 
-" Curl
-map <leader>crest :!curl -i -XGET -H 'Accept: application/json' http://0.0.0.0:3000/
+" http test
+map <leader>hr :!http GET http://0.0.0.0:3000/
 
 " C/AL
 au FileType cal set filetype=cal.vb

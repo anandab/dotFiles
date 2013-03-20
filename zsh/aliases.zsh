@@ -6,7 +6,8 @@ alias -s {rar,zip,7z,tar}='x' #function in .zsh/functs
 alias -s {txt,lua,php,js,css,cal}='vim'
 alias -s {dmg}='open'
 
-alias m=`which tmuxinator`
 alias tw=task
 alias e=$EDITOR
 alias rt=rtorrent
+
+alias m=`which tmuxinator`
