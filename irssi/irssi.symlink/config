@@ -21,12 +21,12 @@ chatnets = {
   freeNode = {
     type = "IRC";
     nick = "nXqd";
-    autosendcmd = "/msg nickserv identify qungdung; wait 2000";
+    autosendcmd = "/msg nickserv identify password; wait 2000";
   };
   bitlee = { type = "IRC"; };
   bitlbee = {
     type = "IRC";
-    autosendcmd = "/^msg identify qungdung;wait 2000";
+    autosendcmd = "/^msg identify password;wait 2000";
   };
 };
 
